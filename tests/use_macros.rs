@@ -1,4 +1,4 @@
-#![cfg(any(target_os = "macos", target_os = "ios"))]
+#![cfg(any(target_os = "macos", target_os = "ios", target_os = "visionos"))]
 
 extern crate objc;
 
